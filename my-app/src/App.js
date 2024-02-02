@@ -1,6 +1,5 @@
 import './App.css';
-import UserEffectCounterContainer from './components/UserEffectCounterContainer';
-
+import HTTPRequest from './components/HTTPRequest';
 
 
 
@@ -9,7 +8,7 @@ function App() {
   
   return (
     <div className="App">
-      <UserEffectCounterContainer />
+      <HTTPRequest />
     </div>
   );
 }
