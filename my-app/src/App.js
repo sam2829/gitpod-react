@@ -1,5 +1,5 @@
 import './App.css';
-import SearchBar from './components/SearchBar';
+import UserEffectCounterContainer from './components/UserEffectCounterContainer';
 
 
 
@@ -9,7 +9,7 @@ function App() {
   
   return (
     <div className="App">
-      <SearchBar />
+      <UserEffectCounterContainer />
     </div>
   );
 }
