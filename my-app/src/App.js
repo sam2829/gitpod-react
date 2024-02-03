@@ -1,5 +1,5 @@
 import './App.css';
-import HTTPRequest from './components/HTTPRequest';
+import HTTPHooks from './components/HTTPHooks';
 
 
 
@@ -8,7 +8,7 @@ function App() {
   
   return (
     <div className="App">
-      <HTTPRequest />
+      <HTTPHooks />
     </div>
   );
 }
